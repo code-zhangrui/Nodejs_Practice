@@ -54,8 +54,8 @@ var server = http.createServer(function(request, response) { //创建 HTTP 服�
   serveStatic(response, cache, absPath);  //返回静态文件
 });
 
-server.listen(3000, function() {
-  console.log("Server listening on port 3000.");
+server.listen(3005, function() {
+  console.log("Server listening on port 3005.");
 });
 
 var chatServer = require('./lib/chat_server');
